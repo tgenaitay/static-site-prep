@@ -1,0 +1,80 @@
+/* ========================================================================*/
+/* ! VARIABLES */
+/* ========================================================================*/
+
+// BRICK DECLINAISON
+$color-brick: #FF8357;
+
+// BLUE DECLINAISON
+$color-blue: #4398b7;
+
+// YELLOW DECLINAISON
+$color-yellow: #FFDD57;
+
+// INDIGO DECLINAISON
+$color-indigo: #83C7D4;
+
+// ANTHRACITE DECLINAISON
+$color-anthracite: #414A53;
+
+// GREEN DECLINAISON
+$color-green: #87C97F;
+
+/* ========================================================================*/
+/* ! GLOBAL */
+/* ========================================================================*/
+
+body {
+  background-color: $color-anthracite;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  padding: 5vh 0;
+  text-align: center;
+  margin:0 auto;
+  font-size:16px;
+}
+
+a {
+  color: $color-blue;
+
+  &:focus,
+  &:hover {
+    color: $color-indigo;
+  }
+}
+
+/* ========================================================================*/
+/* ! LAYOUT */
+/* ========================================================================*/
+
+
+header {
+  display:flex!important;
+  align-items: center;
+  justify-content: space-between;
+  width:70%;
+  margin:0 auto;
+  height:100vh;
+}
+
+header div {
+  text-align:left;
+}
+
+header h3 {
+  text-align: right;
+}
+
+section article {
+  min-width: 500px;
+  min-height: 500px;
+}
+
+.no-padding {
+        padding: 0!important;
+}
+
+
